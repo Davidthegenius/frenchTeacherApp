@@ -1,0 +1,10 @@
+<!-- res/drawable/rounded_button.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button -->
+    <item android:top="4dp" android:left="4dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <solid android:color="#000000" />
+        </shape>
+    </item>
+</layer-list>

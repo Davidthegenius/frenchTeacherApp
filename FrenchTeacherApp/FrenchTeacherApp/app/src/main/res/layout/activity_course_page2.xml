@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".CoursePage2">
+
+    <TextView
+        android:id="@+id/cp2txtHead2"
+        android:layout_width="340dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="244dp"
+        android:fontFamily="@font/feather"
+        android:text="what would you like to learn"
+        android:textAlignment="center"
+        android:textColor="#2D5F8B"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/namepgbtncpg2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cp2txtHead"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/cp2txtHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/feather"
+        android:text="Lets get started!"
+        android:textColor="#2D5F8B"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <Button
+        android:id="@+id/namepgbtncpg2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        android:background="@drawable/button_style"
+        android:padding="15dp"
+        android:text="Colours"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:backgroundTint="@null"
+        app:cornerRadius="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cp2txtHead"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <Button
+        android:id="@+id/number"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_style"
+        android:padding="15dp"
+        android:text="Numbers"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:backgroundTint="@null"
+        app:cornerRadius="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/namepgbtncpg2"
+        app:layout_constraintStart_toStartOf="@+id/namepgbtncpg2"
+        app:layout_constraintTop_toBottomOf="@+id/namepgbtncpg2"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/quiz"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/button_style"
+        android:padding="15dp"
+        android:text="Take a quiz"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:backgroundTint="@null"
+        app:cornerRadius="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/namepgbtncpg2"
+        app:layout_constraintStart_toStartOf="@+id/namepgbtncpg2"
+        app:layout_constraintTop_toTopOf="@+id/number"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <ImageView
+        android:id="@+id/imageViewCpg2"
+        android:layout_width="237dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="43dp"
+        android:clickable="false"
+        android:src="@drawable/study"
+        app:layout_constraintBottom_toTopOf="@+id/cp2txtHead2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cp2txtHead"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
